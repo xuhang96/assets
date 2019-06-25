@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/max.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="max">
+      <p>当月最大需量</p>
+      <h1><span id="maxVal">102.4</span><span>KW</span></h1>
+      <p id="timeP">2019-06-12 21:33:00</p>
+    </div>
+    <div class="list">
+      <p><span>监测点：</span><select id="selectCir" style="border:none;background:none"><option>10kV变压器</option></select><img src="image/right.png"/></p>
+    </div>
+    <div class="list">
+      <p><span>发生时间：</span><input readonly type="text" id="dateSelect" style="border:none;background:none"></p>
+    </div>
+</div>
+<script src="lib/jquery-1.11.1.min.js"></script>
+<!-- 包括所有已编译的插件 -->
+<script src="js/ajaxUtil.js"></script>
+<script src="lib/rolldate.min.js"></script>
+<script src="js/max.js"></script>
+</body>
+</html>

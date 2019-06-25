@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/Unbalance.css" />
+</head>
+<body>
+<div class="container">
+    <div class="list">
+      <p><span>监测点：</span>电容柜</p>
+      <img src="image/right.png"/>
+    </div>
+    <div class="selectTime">
+      <p class="date">日期：<span>2019-06-13</span></p>
+      <div class="time">
+        <img src="image/left.png"/> 上一日&nbsp;&nbsp;下一日 <img src="image/right-green.png"/>
+      </div>
+    </div>
+    <div class="Unbalance-btn">
+      <button type="button" class="balance-btn">电流三相不平衡度</button>
+      <button type="button" class="balance-btn select">电压三相不平衡度</button>
+    </div>
+    <button type="button" class="search">查询</button>
+    <div class="diagram center">
+
+    </div>
+    <table class="dataTable center">
+      <thead>
+        <tr>
+          <th>类型</th>
+          <th>最大</th>
+          <th>发生时间</th>
+          <th>最小</th>
+          <th>发生时间</th>
+          <th>平均</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Thd</td>
+          <td>Pa</td>
+          <td>Pa</td>
+          <td>Pa</td>
+          <td>Pa</td>
+          <td>Pa</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+<script src="lib/jquery-1.11.1.min.js"></script>
+</body>
+</html>

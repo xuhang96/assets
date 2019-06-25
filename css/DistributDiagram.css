@@ -1,0 +1,39 @@
+.listView{
+    background: white;
+    border-radius: 0.5rem;
+    border: 0.05rem solid #B4B4B5;
+    padding: 0.3rem;
+    margin: 0.3rem 0 0.3rem 0;
+}
+.container{
+    background: #EDEDEC;
+    height: 100%;
+    padding-right:0;
+    padding-left:0;
+}
+body{height: 100%;background:#EDEDEC;}
+.data{
+	line-height: 40px;
+	margin:0.5rem 0 0.5rem 0;
+}
+.data img{
+	float:right;
+	vertical-align: -20px;
+	cursor: pointer;
+}
+.container{height:100%;padding-top:0.5rem;}
+.diagram{
+	background:#000;
+	width:inherit;
+	height:calc(100% - 3rem);
+	position:absolute;
+}
+.container select{
+	width:95%;
+	border-radius: 0.3rem;
+	border:0.04rem solid #888888;
+	margin:0 auto;
+	height:2rem;
+	display: block;
+	margin-bottom:0.5rem;
+}

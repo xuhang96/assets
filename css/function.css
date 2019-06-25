@@ -1,0 +1,179 @@
+.listView {
+	background: white;
+	border-radius: 0.5rem;
+	border: 0.05rem solid #B4B4B5;
+	padding: 0.3rem;
+	margin: 0.3rem 0 0.3rem 0;
+}
+
+.list-unstyled li {
+	width: 95%;
+	padding: 0.5rem;
+	background: #fff;
+	list-style: none;
+	border: 1px solid #C8C9CA;
+	border-radius: 0.5rem;
+	margin: 0 0 0.5rem 0.5rem;
+}
+
+.mescroll {
+	position: fixed;
+	top: 0px;
+	bottom: 0;
+	height: auto;
+	background: #EDEDEC;
+}
+
+.data {
+	line-height: 40px;
+	margin: 0.5rem 0 0.5rem 0;
+}
+
+.data img {
+	float: right;
+	vertical-align: -20px;
+	cursor: pointer;
+	margin-right: 0.5rem;
+}
+
+/*.container{height:100%;}*/
+.selectcontain {
+	width: 85%;
+	height: 100%;
+	background: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 2rem 1rem 0 1rem;
+	overflow: hidden;
+	clear: both;
+	z-index: 999;
+}
+
+.selectcontain button {
+	width: 48%;
+	float: left;
+	margin-bottom: 0.5rem;
+	background: #fff;
+	border: 1px solid #888888;
+	border-radius: 5px;
+}
+
+.selectcontain button:first-child {
+	margin-right: 0.5rem;
+}
+
+.selectcontain button:nth-child(3) {
+	margin-right: 0.5rem;
+}
+
+.selectcontain .select {
+	background: #02AC94;
+	border: 1px solid #02AC94;
+	color: #fff;
+}
+
+.selectcontain p {
+	clear: both;
+	line-height: 2rem;
+}
+
+.selectcontain hr {
+	clear: both;
+	margin-left: -1rem;
+	margin-right: -1rem;
+	border: 0.03rem dashed #C8C9CA;
+}
+
+.selectcontain span {
+	width: 35%;
+	display: block;
+	float: left;
+	text-align: right;
+}
+
+.selectcontain input,
+.selectcontain select {
+	width: 65%;
+	height: 2rem;
+	border-radius: 0.3rem;
+	border: 0.04rem solid #888888;
+}
+
+.selectcontain .search,
+.selectcontain .cancel {
+	position: fixed;
+	bottom: 0;
+	line-height: 3rem;
+	width: 42.5%;
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+}
+
+.selectcontain .cancel {
+	left: 15%;
+	background: #d4d4d0;
+}
+
+.selectcontain .search {
+	right: 0;
+	background: #02AC94;
+	color: #fff;
+}
+
+.function-group {
+	width: 100%;
+}
+
+#dateStart,
+#dateEnd {
+	width: 100%;
+}
+
+.function-group label {
+	width: 35%;
+	text-align: right;
+	float: left;
+	display: block;
+	padding: 0;
+	padding-top: 4px;
+}
+
+.functionDate .btn:hover {
+	color: #fff;
+}
+
+.function-group .input-group {
+	width: 65%;
+	float: left;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.sRow {
+	margin-bottom: 1rem;
+}
+
+.sRow span {
+	padding-top: 4px;
+}
+
+.control-label,
+.data-date {
+	display: block;
+	float: left;
+}
+
+.form-group div {
+	float: left;
+}
+
+.control-label {
+
+	width: 30%;
+}
+
+.data-date {
+	width: 65%;
+}

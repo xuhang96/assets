@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/dosage.css" />
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="selectTime">
+      <p class="date">日期：<span>2019-06-13</span></p>
+      <select class="classify" id="selectType">
+        <!--按电量-->
+        <option value="sum" class="i18n" name="Electricity">按电量</option>
+        <!-- 按电费 -->
+        <option value="price" class="i18n" name="Price">按电费</option>
+      </select>
+    </div>
+    <div class="diagram center classdata" id="chartDosage">
+
+    </div>
+  </div>
+  <script src="lib/jquery-1.11.1.min.js"></script>
+  <script src="lib/echarts.min.js"></script>
+  <script src="js/dosage.js"></script>
+</body>
+
+</html>

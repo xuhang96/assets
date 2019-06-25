@@ -1,0 +1,73 @@
+.container {
+	background: #EDEDEC;
+	height: 100%;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+body {
+	height: 100%;
+	font-size: 0.8rem;
+}
+
+.time {
+	float: right;
+	padding: 0.5rem 0.3rem 0 0;
+}
+
+.time img {
+	vertical-align: -4px;
+}
+
+.data {
+	line-height: 40px;
+	margin: 0.3rem 0 0.3rem 0;
+}
+
+.data img {
+	float: right;
+	vertical-align: -20px;
+	cursor: pointer;
+}
+
+.container,
+html {
+	height: 100%;
+}
+
+.date {
+	margin: 0.6rem 0.2rem 0.6rem 0.2rem;
+	display: block;
+	float: left;
+}
+
+.container .diagram {
+	/* padding: absolute; */
+	width: 95%;
+	height: 90%;
+	margin-top: 0.5rem;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.classify {
+	float: right;
+	display: block;
+	width: 5rem;
+	height: 2rem;
+	line-height: 2rem;
+	border-radius: 0.3rem;
+	margin: 0.5rem;
+	background: transparent;
+}
+
+.classdata {
+	background: #fff;
+}
+
+.selectTime {
+	height: 2.5rem;
+	padding-left: 0.3rem;
+}
